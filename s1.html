@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>퓨어에 오신것을 환영합니다.</title>
+    <style>
+    body{
+      margin:0;}
+    /*footer */
+    footer{
+	    position: relative;
+      height: 100px;
+
+      background-color: #f7eade;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+      .footer{
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align:center;
+        color: #88817a;
+      }
+      /*---NAV--*/
+      .wrap{
+        height: 100px;
+        width: 100%;
+        position: static;
+        background-color: #8f6d4f;
+        z-index: 10;
+      }
+      .nav{
+        position: absolute;
+        top: 50px;
+        width: 1000px;
+        display: inline-block;
+        left: 51%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+      }
+      .space{
+        margin-left: 3rem;
+      }
+      .space2{
+        margin-left: 60px;
+      }
+      #type{
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 1.6rem;
+      }
+      a, a:link :visited :active{
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        color: #bd946d;
+      }
+      /*---sub page---*/
+      .bodywrap{
+        margin: 0;
+        top: 100px;
+        width: 100%;
+        height: 100%;
+        background-repeat: repeat-x;
+      }
+      .page1{
+        margin: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        background-image: url(img/s02_b.png);
+        background-color: #f7eade;
+      }
+      .page2{
+        margin: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        background-color: #f7eade;
+      }
+      .subimg{
+
+        height: 502px;
+        text-align: center;
+        background-color: #3b2610;
+      }
+      .subimgtop{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        top: 527px;
+        width: 101%;
+        height: 73px;
+        z-index: 100;
+      }
+      .subimgtoptxt{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 1.4rem;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <nav class="wrap">
+      <div id="type" class="nav">
+        <a href="main.html">PURE</a><span class="space"></span>
+        <a href="s1.html">OUR STORY</a><span class="space"></span>
+        <a href="s2.html">MENU</a><span class="space"></span>
+        <a href="s4.html">CONTACT US</a><span class="space"></span>
+        <a href="s5.html">RESERVATION</a><span class="space"></span>
+      </div>
+    </nav>
+    <div class="subimg">
+      <img src="img/s01.png">
+    </div>
+    <div class="subimgtop">
+      <div class="subimgtoptxt">
+        <span><a href="">CEO소개</a></span><span class="space2"></span>
+        <span><a href="">매장소개</a></span>
+      </div>
+    </div>
+  <section class="bodywrap">
+    <div class="page1">
+      <img src="img/s02.png">
+    </div>
+    <div class="page2">
+      <img src="img/s03.png">
+    </div>
+  </section>
+
+    <footer>
+      <div class="footer">
+        copyright 2019 퓨어 inc. All tight reserved
+      </div>
+    </footer>
+
+  </body>
+</html>
